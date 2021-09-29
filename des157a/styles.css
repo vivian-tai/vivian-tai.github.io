@@ -1,0 +1,40 @@
+#banner {
+    width: 1100px;
+    height: 250px;
+}
+
+header {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    width: 33%;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
