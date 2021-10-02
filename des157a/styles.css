@@ -1,19 +1,13 @@
-/* body {
-    background-image: linear-gradient(pink,orange)
-} */
-
 #banner {
     width: 1100px;
     height: 250px;
-    margin:auto;
-    
+    margin: auto;
 }
 
 #icons {
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin:auto;
 }
 #scissors, #paint, #hammer {
     height: 100px;
@@ -28,7 +22,10 @@
     100% {
         transform: rotate(0deg);
     }
+}
 
+img:hover {
+    opacity: 0;
 }
 
 #scissors:hover {
@@ -53,29 +50,33 @@ header {
 
 h1 {
     font-size: 50px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-family: 'Yeseva One', serif;
+    letter-spacing: 2px;
 }
 
 #container {
     display: flex;
     justify-content: center;
-    margin: 50px;
-
+    margin: 1%;
 }
 
 #tape {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -60px;
+    top: -40px;
     left: 110px;
     opacity: 0.3;
 }
 
 #studios, #rd, #final {
     background-color: beige;
-    padding: 20px;
-    padding-left:50px;
-    padding-bottom:50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
     margin: 20px;
     box-shadow: 8px 8px gray;
 }
@@ -91,11 +92,13 @@ ul {
 li {
     list-style-type: none;
     margin-bottom: 10px;
+    margin-left:-20px;
 }
 
 a {
     text-decoration:none;
     color: rgb(92, 92, 92);
+    margin: 20px;
 }
 
 a:hover {
@@ -110,8 +113,9 @@ main {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
-    padding-bottom: 50px;
 }
