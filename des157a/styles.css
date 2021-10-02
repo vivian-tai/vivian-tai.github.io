@@ -64,7 +64,7 @@ h2 {
     margin: 1%;
 }
 
-#tape, #tape:hover {
+#tape1, #tape2, #tape3 {
     display: flex;
     justify-content: center;
     position: relative;
