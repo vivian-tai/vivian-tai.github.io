@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Experimentation: Functions and DOM</title>
+</head>
+<body>
+    <div id='correct'>
+        <h1 id='random'> here is your favorite primary color!</h1>
+    </div>
+
+    <script>
+        //this program asks for your favorite primary color and changes the background color to that color. if you do not input a primary color, it will say "you did not enter a primary color. try again!" with a white background.
+        var colors = ['red', 'blue', 'yellow'];
+        var selectedColor = prompt('what is your favorite primary color?','').toLowerCase();
+
+        if (selectedColor == 'red') {
+            document.body.style.backgroundColor = 'red';
+        } else if (selectedColor == 'blue'){
+            document.body.style.backgroundColor = 'blue';
+        } else if (selectedColor == 'yellow'){
+            document.body.style.backgroundColor = 'yellow';
+        } else {
+            document.getElementById('random').textContent = 'you did not enter a primary color. try again!';
+        }
+    </script>
+</body>
+</html>
