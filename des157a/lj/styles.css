@@ -1,5 +1,5 @@
 html {
-    height: 150%;
+    height: 200%;
 }
 
 body {
@@ -56,7 +56,7 @@ hr {
 p {
     font-family: 'Inter', sans-serif;
     color: white;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 a {
