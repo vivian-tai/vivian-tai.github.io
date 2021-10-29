@@ -1,5 +1,5 @@
 html {
-    height: 350%;
+    height: 600%;
 }
 
 body {
@@ -62,6 +62,22 @@ p {
 a {
     color: pink;
     text-decoration: none;
+}
+
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+figcaption {
+    color: gray;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 footer {
