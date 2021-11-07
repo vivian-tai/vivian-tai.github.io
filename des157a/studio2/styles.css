@@ -72,23 +72,13 @@ img:hover {
     transform: translate(-50%, -50%);
 }
 
-#left1, #right1 {
+.left1, .right1 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
     position: relative;
 }
-
-/* #left1 {
-    position: relative;
-
-}
-
-#right1 {
-    position: relative;
-    margin-left: 50px;
-} */
 
 article {
     display: flex;
