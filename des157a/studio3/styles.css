@@ -1,0 +1,85 @@
+body {
+    font-family: 'Nanum Pen Script', cursive;
+    color: #fff;
+    padding: 50px;
+    line-height: 1.5em;
+    background-image: url("images/dogcatbg.png");
+    overflow: hidden;
+    cursor: url(images/pawmouse.png), auto;
+}
+
+button:hover {
+    cursor: url(images/pawmouse.png), auto;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(122, 80, 148);
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+#rules {
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px;
+    color: rgb(142,101,168);
+    margin-bottom: 0;
+
+}
+
+button { 
+    padding: 10px;
+    border: none;
+    background-color: rgb(247, 187, 7);
+    color: rgb(142,101,168);
+    border-radius: 8px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+div {
+    padding: 20px;
+}
+
+#gamecontrol, #score {
+    text-align: center;
+}
+
+#gamecontrol, #game, #actions {
+    font-size: 20px;
+}
+
+#score {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 810px;
+
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+}
+#actions {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+a {
+    color:rgb(247, 187, 7);
+    text-decoration: none;
+}
