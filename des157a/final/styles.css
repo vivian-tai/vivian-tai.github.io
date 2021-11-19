@@ -1,0 +1,86 @@
+body {
+    background: rgb(140, 194, 223);
+}
+
+header {
+    text-align: center;
+}
+
+article {
+    width: 6in;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    color: lightsteelblue;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+
+}
+
+h1 {
+    padding-top: 10px;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 50px;
+}
+
+h2 {
+    color: gold;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+hr {
+    border: 1px solid lightsteelblue;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    line-height: 1.5em;
+}
+
+a {
+    color: pink;
+    text-decoration: none;
+}
+
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    color: gray;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+#html, #css {
+    padding-left: 10px;
+}
