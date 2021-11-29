@@ -2,6 +2,9 @@
     'use strict';
     console.log("reading js");
 
+    window.alert("Hi! Thanks for taking the time to look this over. Please feel free to watch the mini animation on load (may need to refresh again since you're reading this), click through each graphic, use the nav bar, and close overlays. I appreciate any feedback you may have!");
+
+
     //fade in webpage on load
     document.body.style.opacity = 1;
 
@@ -40,5 +43,23 @@
         event.preventDefault();
         scrollContainer.scrollLeft = scrollContainer.scrollLeft + event.deltaY;
     });
+
+    //smooth scroll
+    const navLinks = document.querySelectorAll('nav ul li a');
+
+    navLinks.forEach(function(eachLink) {
+        eachLink.addEventListener('click', smoothScroll);
+    });
+
+    function smoothScroll(event) {
+        event.preventDefault();
+
+        const targetID = event.target.getAttribute('href');
+        const targetAnchor = document.querySelector(targetID);
+
+        const original = Math.floor(targetAnchor.getBoundingClientRect().left);
+        window.scrollBy({ top: 0, left: original, behavior: 'smooth' });
+        console.log(original);
+    };
 
 })();

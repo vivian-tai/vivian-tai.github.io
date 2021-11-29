@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="styles.css">
+    <script src="smoothscroll.js"></script>
+    <script src="script.js" defer></script> 
+    <title>Final Project</title>
+</head>
+
+<body>
+
+    <main>
+
+        <div class="preloader">
+            <img class="cloud" src="images/cloud1.png" alt="cloud">
+        </div>
+
+        <!-- logo -->
+        <div class = "grow">
+            <a href="https://www.etsy.com/shop/sunriselark/"><img class = "logo" src="images/sllogonew.png" alt="sunrise lark logo" width="100" height="100"></a>
+        </div>
+
+        <!-- gallery -->
+        <section id="gallery">
+
+            <section id="first">
+                <div class = "grow">
+                    <a href="#" class="open" id="one">
+                        <img src="images/ivoryGoldSquare.png" alt="ivory and gold dish" width="500" height="500">
+                    </a>
+                </div>
+            </section>
+            
+            <section id="second">
+                <div class = "grow">
+                    <a href="#" class="open" id="two">
+                        <img src="images/speckleSquare.png" alt="speckle dish" width="500" height="500">
+                    </a>
+                </div>
+            </section>
+
+            <section id="third">    
+                <div class = "grow">
+                    <a href="#" class="open" id="three">
+                        <img src="images/shellEarringsSquare.png" alt="earrings in shell dish" width="500" height="500">
+                    </a>
+                </div>
+            </section>
+
+            <section id="fourth">
+                <div class = "grow">
+                    <a href="#" class="open" id="four">
+                        <img src="images/darkMarbleSquare.png" alt="dark marble dish" width="500" height="500">
+                    </a>
+                </div>
+            </section>
+
+            <section id="fifth"> 
+                <div class = "grow">
+                    <a href="#" class="open" id="five">
+                        <img src="images/blackGoldSquare.png" alt="black and gold dish" width="500" height="500">
+                    </a>
+                </div>
+            </section>
+
+            <section id="sixth">
+                <div class = "grow">
+                    <a href="#" class="open" id="six">
+                        <img src="images/about.png" alt="about" width="500" height="500">
+                    </a>
+                </div>
+            </section>
+
+        </section>
+
+        <!-- ivorygold overlay -->
+        <section id="ol-one" class="overlay hidden">
+            <article>
+
+                <div class ="left1">
+                    <h2><i>ivory dish</i><br>with gold leaf</h2>
+                </div>
+
+                <img id = "ivorygold" src="images/ivoryGoldSquare.png" alt="gold leaf on ivory dish" width="500" height="500">
+
+                <div class = "right1">
+                    <h2><i>materials</i><br>white jesmonite<br>gold leaf</h2>
+                </div>
+
+                <button class="corner close">&times;</button>
+
+            </article>
+        </section>
+
+        <!-- speckle overlay -->
+        <section id="ol-two" class="overlay hidden">
+            <article>
+
+                <div class ="left1">
+                    <h2><i>ivory dish</i><br>with black speckles</h2>
+                </div>
+
+                <img id = "speckle" src="images/speckleSquare.png" alt="speckle dish" width="500" height="500">
+
+                <div class = "right1">
+                    <h2><i>materials</i><br>white jesmonite<br>crushed black jesmonite</h2>
+                </div>
+
+                <button class="corner close">&times;</button>
+
+            </article>
+        </section>
+
+        <!-- shell overlay -->
+        <section id="ol-three" class="overlay hidden">
+            <article>
+
+                <div class="left1">
+                    <h2><i>shell dish</i><br>paired with<br>light blue earrings</h2>
+                </div>
+
+                <img id = "shell" src="images/shellEarringsSquare.png" alt="earrings in shell dish" width="500" height="500">
+
+                <div class = "right1">
+                    <h2><i>materials</i><br>white jesmonite<br>gold wire<br>6mm bead</h2>
+                </div>
+
+                <button class="corner close">&times;</button>
+
+            </article>
+        </section>
+
+        <!-- marble overlay -->
+        <section id="ol-four" class="overlay hidden">
+            <article>
+
+                <div class="left1">
+                    <h2><i>marble dish</i><br>with dark swirls</h2>
+                </div>
+
+                <img id = "marble" src="images/darkMarbleSquare.png" alt="dark marble dish" width="500" height="500">
+
+                <div class = "right1">
+                    <h2><i>materials</i><br>white jesmonite<br>dark gray jesmonite</h2>
+                </div>
+
+                <button class="corner close">&times;</button>
+
+            </article>
+        </section>
+
+        <!-- blackgold overlay -->
+        <section id="ol-five" class="overlay hidden">
+            <article>
+
+                <div class="left1">
+                    <h2><i>black dish</i><br>with gold leaf</h2>
+                </div>
+
+                <img id = "blackgold" src="images/blackGoldSquare.png" alt="black gold leaf dish" width="500" height="500">
+
+                <div class = "right1">
+                    <h2><i>materials</i><br>black jesmonite<br>gold leaf</h2>
+                </div>
+
+                <button class="corner close">&times;</button>
+
+            </article>
+        </section>
+
+        <!-- about overlay -->
+        <section id="ol-six" class="overlay hidden">
+            <article>
+
+                <!-- <div class="left1">
+                    <h2><i>about</i></h2>
+                </div> -->
+                <h2><i>about</i><br>some text will go here</h2>
+
+                <img id = "messy" src="images/messyworkspace.jpg" alt="messy work space" width="806" height="605">
+
+                <!-- <div class = "right1">
+                    <h2><i>story</i><br>text goes here<br>more text</h2>
+                </div> -->
+
+                <button class="corner close">&times;</button>
+
+            </article>
+        </section>
+
+        <!-- nav bar -->
+        <header>
+            <nav class="dot dot-fill">
+                <ul>
+                    <li><a href="#first" class="selected"></a></li>
+                    <li><a href="#second"></a></li>
+                    <li><a href="#third"></a></li>
+                    <li><a href="#fourth"></a></li>
+                    <li><a href="#fifth"></a></li>
+                </ul>
+            </nav>
+        </header>
+
+    </main>
+
+    <footer>
+        <a href="https://validator.w3.org/check?uri=https://vivian-tai.github.io/des157a/final">html</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">css</a>
+    </footer>
+
+</body>
+
+</html>
