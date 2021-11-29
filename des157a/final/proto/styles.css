@@ -62,8 +62,8 @@ h2 {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
 }
 
 .hidden {
