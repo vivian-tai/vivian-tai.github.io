@@ -1,0 +1,186 @@
+body {
+    background-color: #9cc9d8;
+    opacity: 0;
+    transition: opacity 3s;
+    overflow: hidden;
+    cursor: url("images/circlemouse.png"), auto;
+}
+
+.corner:hover, a:hover {
+    cursor: url("images/circlemouse.png"), auto;
+}
+
+.infinite-gallery {
+    width: 100%;
+    height: 100vh;
+    max-height: 768px;
+    background-image: url("images/gallery.jpg");
+    background-size: calc(3.9 * min(100vh, 768px)) min(100vh, 768px);
+    background-repeat: repeat-x;
+    animation: scroll 50s linear infinite;
+  }
+  
+  @keyframes scroll {
+    from {
+      background-position: left calc(3.9 * min(100vh, 768px)) top 0px;
+    }
+    to {
+      background-position: left 0px top 0px;
+    }
+  }
+
+.enter {
+    margin-left: 550px;
+    margin-top: 320px;
+    position: fixed;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 22px;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 40px;
+}
+
+.logo {
+    padding-left: 20px;
+    padding-top: 20px;
+    position: fixed;
+}
+
+#gallery {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showing {
+    visibility: visible;
+    opacity: 1;
+}
+
+.grow {
+    display: flex;
+}
+
+img {
+    filter: grayscale();
+    opacity: 50%;
+}
+
+img:hover {
+    filter: none;
+    opacity: 100%;
+}
+
+.grow img {
+    transition: all 1s ease;
+}
+
+.grow img:hover {
+    transform: scale(1.08);
+}
+
+#messy, .enter, .logo, #ivorygold, #speckle, #shell, #marble, #blackgold {
+    filter: none !important;
+    opacity: 100% !important;
+}
+
+#messy {
+    padding: 15px;
+    padding-top: 35px;
+}
+
+#ivorygold, #speckle, #shell, #marble, #blackgold {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left1, .right1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
+}
+
+#box {
+    display: flex;
+    gap: 400px;
+}
+
+article{
+    display: flex;
+    gap: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-property: opacity, visibility;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.overlay article {
+    box-sizing: border-box;
+    background-color: #9cc9d8;
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.corner {
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: url("images/circlemouse.png"), auto;
+
+}
+
+.foot {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+a {
+    font-family: 'EB Garamond', serif;
+    color: rgb(252, 220, 40);
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
